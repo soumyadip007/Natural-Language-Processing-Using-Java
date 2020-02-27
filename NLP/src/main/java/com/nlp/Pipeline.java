@@ -19,7 +19,7 @@ public class Pipeline {
 	{
 		
 		if(sanfordCoreNLP==null)
-			sanfordCoreNLP=new StanfordCoreNLP(propertyname);
+			sanfordCoreNLP=new StanfordCoreNLP(properties);
 		
 		return sanfordCoreNLP;
 	}
