@@ -23,4 +23,12 @@ public class Pipeline {
 		
 		return sanfordCoreNLP;
 	}
+	
+	static {
+		
+		properties=new Properties();
+		properties.setProperty("annotator", propertyname);
+		
+	}
+	
 }
