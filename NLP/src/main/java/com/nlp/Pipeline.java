@@ -12,6 +12,15 @@ public class Pipeline {
 	
 	private Pipeline()
 	{
+		//hiding object
+	}
+	
+	public static StanfordCoreNLP getPipeline()
+	{
 		
+		if(sanfordCoreNLP==null)
+			sanfordCoreNLP=new StanfordCoreNLP(propertyname);
+		
+		return sanfordCoreNLP;
 	}
 }
