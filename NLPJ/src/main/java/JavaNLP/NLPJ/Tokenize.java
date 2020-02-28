@@ -22,6 +22,6 @@ public class Tokenize {
 		
 		for(CoreSentence c:res)
 			System.out.println(c);
-		
+		//
 	}
 }
