@@ -13,5 +13,18 @@ public class Parts_of_Speech {
 
 	public static void main(String args[])
 	{
+
+		StanfordCoreNLP sanfordCoreNLP=Pipeline.getPipeline();
+		
+		String text="Hey! This is soumyadip";
+		
+		CoreDocument core=new CoreDocument(text);
+		
+		sanfordCoreNLP.annotate(core);
+		
+		List<CoreSentence> res=core.sentences();
+		
+		for(CoreSentence c:res)
+			System.out.println(c);
 	}
 }
