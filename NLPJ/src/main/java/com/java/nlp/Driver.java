@@ -1,4 +1,4 @@
-package JavaNLP.NLPJ;
+package com.java.nlp;
 
 public class Driver {
 
