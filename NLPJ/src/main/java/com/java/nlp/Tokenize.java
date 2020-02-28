@@ -13,7 +13,8 @@ public class Tokenize {
 	public static void main(String args[])
 	{
 		StanfordCoreNLP sanfordCoreNLP=Pipeline.getPipeline();
-		
+
+		System.out.println("Property added");
 		String text="Hey! This is soumyadip";
 		
 		CoreDocument core=new CoreDocument(text);
