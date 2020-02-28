@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.java.nlp.main.Pipeline;
 
+import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.CoreDocument;
 import edu.stanford.nlp.pipeline.CoreSentence;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
@@ -22,9 +23,9 @@ public class Parts_of_Speech {
 		
 		sanfordCoreNLP.annotate(core);
 		
-		List<CoreSentence> res=core.sentences();
+		List<CoreLabel> res=core.tokens();
 		
-		for(CoreSentence c:res)
+		for(CoreLabel c:res)
 			System.out.println(c);
 	}
 }
