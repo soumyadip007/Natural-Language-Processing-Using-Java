@@ -20,6 +20,8 @@ public class Tokenize {
 		
 		List<CoreSentence> res=core.sentences();
 		
+		for(CoreSentence c:res)
+			System.out.println(c);
 		
 	}
 }
