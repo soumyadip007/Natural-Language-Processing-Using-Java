@@ -1,4 +1,4 @@
-package JavaNLP.NLPJ;
+package com.java.nlp;
 
 import java.util.List;
 
