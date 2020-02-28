@@ -2,6 +2,8 @@ package JavaNLP.NLPJ;
 
 import java.util.List;
 
+import com.java.nlp.main.Pipeline;
+
 import edu.stanford.nlp.pipeline.CoreDocument;
 import edu.stanford.nlp.pipeline.CoreSentence;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
