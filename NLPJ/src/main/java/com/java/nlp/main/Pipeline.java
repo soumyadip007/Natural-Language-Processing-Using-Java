@@ -13,7 +13,7 @@ public class Pipeline {
 	
 	private Pipeline()
 	{
-		//hiding object
+		
 	}
 	
 	public static StanfordCoreNLP getPipeline()
